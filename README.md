@@ -19,3 +19,11 @@ A functional scientific calculator built using the "Vibe Coding" paradigm.
 2. Run `npm install` to install dependencies.
 3. Run `npm run dev` to start the development server.
 4. Open `http://localhost:3000` in your browser.
+
+## Docker Deployment
+
+Follow these instructions to containerize and run the application:
+
+### Build the Docker Image
+```bash
+docker build -t vibe-calculator .
